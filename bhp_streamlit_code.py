@@ -27,7 +27,7 @@ location=st.selectbox('choose the location',x)
 file1.close()
 #js_data
 #model training
-df=pd.read_csv('C://Users//Bhavesh//cleaned_bhp.csv')
+df=pd.read_csv('cleaned_bhp.csv')
 X = df.drop(['price'],axis='columns')
 y = df.price
 from sklearn.model_selection import train_test_split
