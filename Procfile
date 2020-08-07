@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run .py
+web: sh setup.sh && streamlit run bhp_streamlit_code.py
