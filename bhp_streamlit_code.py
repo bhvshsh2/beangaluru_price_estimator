@@ -12,7 +12,7 @@ bhk=st.slider('No of bedrooms',1,5,2)
 st.write('No of bedrooms are',bhk)
 bath=st.slider('No of bathrooms',1,5,2)
 sqft=st.slider('No of squarefeet',0,25000,1000)
-file1=open('C://Users//Bhavesh//columns.json')
+file1=open('columns.json')
 js_data=json.load(file1)
 #type(js_data.items())
 loc1=[]
